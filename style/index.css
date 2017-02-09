@@ -1,0 +1,164 @@
+/***** Setup *****/
+body {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	/*background-color: #000000;*/
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-collapse {
+ 	overflow: hidden;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.container {
+	width: 100%;
+	max-width: none;
+	padding: 0;
+}
+form {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50em;
+	text-align: left;
+}
+
+/***** Utility styles *****/
+.parallax { 
+    /* Set a specific height */
+    height: 35em; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.blue {
+	background: #00303f;
+}
+.black {
+	background: #000000;
+}
+.center {
+	text-align: center;
+}
+.title {
+	color: #F0AD4E;
+}
+.description {
+	line-height: 30px;
+}
+.short-separation-bar {
+	background-color: #F0AD4E;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	margin-bottom: 3em;
+	height: 5px;
+	width: 80px;
+}
+.thumbnail { 
+	border: none;
+	background: 50% 50% no-repeat;
+	width: 225px;
+	height: 225px;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+/***** Section specific styles *****/
+.navbar-inverse .navbar-brand {
+    color: #F0AD4E;
+}
+.navbar-social-icon {
+	width: 2em;
+}
+.social-container {
+	position: fixed;
+	display: inline-block;
+	z-index: 5;
+	top: 25%;
+}
+
+.parallax-container {
+	position: relative;
+	height: 35em;
+}
+.about-container-company-logo {
+	width: 20em;
+	margin-top: 5em;
+}
+.about-container-description {
+	padding-top: 100px;
+	text-align: center;
+}
+.about-container-button {
+	background-color: transparent;
+	border-color: #FFFFFF;
+	border-radius: 5px;
+	border-style: solid;
+	color: #FFFFFF;
+	outline: none;
+	margin: 2px;
+}
+.about-container-button:hover {
+	background-color: #FFFFFF;
+	text-decoration: none;
+	color: #F0AD4E;
+}
+
+.our-games-content {
+	margin-left: 13.5%;
+}
+
+.team-container-profile {
+	text-align: center;
+}
+.the-team-photo {
+	height: 10em;
+	width: auto;
+	border-radius: 50%;
+}
+
+/***** Media Queries *****/
+@media screen and (max-width: 995px) {
+	.about-container-company-logo {
+		width: 15em;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.about-container-description {
+		padding-top: 0px;
+	}
+	.parallax {
+		height: 50em;
+	}
+	.parallax-container {
+		height: 50em;
+	}
+	.the-team-photo {
+		height: 5em;
+	}
+	form {
+		width: 25em;
+	}
+	.thumbnail {
+		width: 150px;
+		height: 150px;
+	}
+	.our-games-content {
+		margin-left: 5%;
+	}
+}
